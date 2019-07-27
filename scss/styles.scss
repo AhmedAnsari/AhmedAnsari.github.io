@@ -458,6 +458,9 @@ footer {
         margin: 0;
     }
 }
+.about-image {
+    float: right;    
+}
 
 /*
     --------------------------------
@@ -639,11 +642,16 @@ footer {
         color: $heading;
         margin-bottom: 50px;
     }
+    h4 {
+        color: $heading;
+        text-align: left;
+        padding: 0px 205px;
+    }
 }
 
 .project {
     position: relative;
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto 30px auto;
     overflow: hidden;
     background: #fff;
@@ -652,6 +660,7 @@ footer {
 
 .project-image {
     float: left;
+
 }
 
 .project-info {
@@ -666,12 +675,16 @@ footer {
         font-weight: 300;
         color: $heading;
         margin: 0 0 15px 0;
+        text-align: left;
     }
 
     p {
         color: $text;
         margin: 0 0 15px 0;
         font-size: 0.9em;
+    }
+    ul {
+        text-align: left;
     }
 }
 
@@ -682,6 +695,7 @@ footer {
         padding: 30px 15px;
         transform: none;
     }
+
 }
 
 #more-projects {
