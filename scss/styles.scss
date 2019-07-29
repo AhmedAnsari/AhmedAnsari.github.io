@@ -642,11 +642,6 @@ footer {
         color: $heading;
         margin-bottom: 50px;
     }
-    h4 {
-        color: $heading;
-        text-align: left;
-        margin: auto auto auto 205px;
-    }
 }
 
 .project {
@@ -656,6 +651,13 @@ footer {
     overflow: hidden;
     background: #fff;
     border-radius: 4px;
+}
+.project-location {
+    h4 {
+        color: $heading;
+        text-align: left;
+        margin: auto auto auto 205px;
+    }
 }
 
 .project-image {
@@ -973,6 +975,9 @@ footer {
     }
 
     .project-image {
+        display: none;
+    }
+    .project-location {
         display: none;
     }
 
